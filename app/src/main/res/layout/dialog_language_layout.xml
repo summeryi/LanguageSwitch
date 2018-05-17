@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/ToolBar"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary">
+        <RelativeLayout style="@style/ToolBarContainerRelative">
+            <ImageButton
+
+                style="@style/ToolBarBackButton" />
+            <TextView
+                style="@style/ToolBarTitle"
+                android:text="@string/me_data_laungage"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

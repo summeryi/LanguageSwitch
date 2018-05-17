@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">switch_language_sample</string>
+    <string name="action_settings">語言</string>
+    <string name="hello_world">妳好世界!</string>
+    <string name="home">首頁</string>
+    <string name="me_data_laungage">語言設置</string>
+</resources>
